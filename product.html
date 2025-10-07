@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="bn">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>প্রোডাক্ট — Anezone</title>
+<link rel="stylesheet" href="../assets/css/style.css"></head>
+<body>
+<a href="index.html">← ফিরে যান</a>
+<h1>প্রোডাক্ট নাম (প্লেসহোল্ডার)</h1>
+<img src="../assets/images/product1.png" alt="product">
+<p>বর্ণনা: এটি একটি ডেমো প্রোডাক্ট।</p>
+<p class="price">৳ 750</p>
+<form action="../backend/routes/orders.js" method="post">
+  <label>পরিমাণ: <input name="qty" value="1" type="number"></label>
+  <label>কুরিয়ার নির্বাচন:
+    <select name="courier">
+      <option>Pathao</option>
+      <option>Paperfly</option>
+      <option>Steadfast</option>
+      <option>RedX</option>
+    </select>
+  </label>
+  <button type="submit">অর্ডার করুন</button>
+</form>
+</body>
+</html>
